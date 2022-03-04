@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <title>IBM Maximo Application Suite- Introduction to the guide</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark sticky-top" aria-label="Sixth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><span>CoE Deployment Guide for Maximo Application Suite</span></a>
+  </nav>
+  <div class="wrapper">
+    <div class="d-flex flex-column align-items-stretch flex-shrink-0 p-3 text-white sidebar-wrapper">
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn align-items-center rounded text-white"><strong>Introduction</strong></button>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center text-white rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse1" aria-expanded="false">
+            <span class="arrow">MAS Components Installation</span>
+          </button>
+          <div class="collapse" id="dashboard-collapse1">
+            <ul class="btn-toggle-nav  text-white list-unstyled fw-normal pb-1 small">
+              <li><a href="#item1" class="link-dark text-white rounded">Installing Service Binding Opertor</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing Certificate Manager</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing BAS</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing MongoDB</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing SLS</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing CloudPak for Data</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing Kafka</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Installing Core MAS</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center text-white rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse2" aria-expanded="false">
+            <span class="arrow">Configuring MAS Core</span>
+          </button>
+          <div class="collapse" id="dashboard-collapse2">
+            <ul class="btn-toggle-nav  text-white list-unstyled fw-normal pb-1 small">
+              <li><a href="#item1" class="link-dark text-white rounded">Configuring MongoDB</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Configuring BAS</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Configuing Suite License Service </a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Generating License Key</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center text-white rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse3" aria-expanded="false">
+            <span class="arrow">Deploying Applications in MAS</span>
+          </button>
+          <div class="collapse" id="dashboard-collapse3">
+            <ul class="btn-toggle-nav  text-white list-unstyled fw-normal pb-1 small">
+              <li><a href="#item1" class="link-dark text-white rounded">Manage</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Manage add-ons</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center text-white rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse4" aria-expanded="false">
+           <span class="arrow"> Reference</span>
+          </button>
+          <div class="collapse" id="dashboard-collapse4">
+            <ul class="btn-toggle-nav  text-white list-unstyled fw-normal pb-1 small">
+              <li><a href="#item1" class="link-dark text-white rounded">OCP Tips</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center text-white rounded collapsed" data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse5" aria-expanded="false">
+            <span class="arrow">Troubleshooting</span>
+          </button>
+          <div class="collapse" id="dashboard-collapse5">
+            <ul class="btn-toggle-nav  text-white list-unstyled fw-normal pb-1 small">
+              <li><a href="#item1" class="link-dark text-white rounded">Service Binding Operator</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Certificate Manager</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">BAS</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">MongoDB</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">SLS</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">CloudPak for Data</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Kafka</a></li>
+              <li><a href="#item7" class="link-dark text-white rounded">Core MAS</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-top my-3"></li>
+
+      </ul>
+    </div>
+
+    <div class="mx-4 content-wrapper">
+      <div class="row">
+        <div class="col-md-12 my-2">
+          <div class="test">Introduction to the Guide</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+        <div class="col-md-12 my-2">
+          <legend id="item2">Item 1</legend>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi, eveniet, temporibus dolore iste
+            cumque animi quos id provident autem explicabo officiis debitis, eos consectetur quia. Repudiandae debitis
+            itaque aliquam?</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<script>
+  var icon = document.getElementById("icon");
+
+  let localdata = localStorage.getItem("theme");
+
+  if (localdata == "light") {
+      icon.src = "C:\Users\AVVC2Y744\Desktop\page1\dark theme icon\moon.png";
+      document.body.classList.remove("dark-theme");
+  }
+  else if (localdata == "dark") {
+      icon.src = "C:\Users\AVVC2Y744\Desktop\page1\dark theme icon\sun.png";
+      document.body.classList.add("dark-theme");
+  }
+
+  icon.onclick = function () {
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+          icon.src = "C:\Users\AVVC2Y744\Desktop\page1\dark theme icon\sun.png"
+          localStorage.setItem("theme", "dark");
+      } else {
+          icon.src = "C:\Users\AVVC2Y744\Desktop\page1\dark theme icon\moon.png"
+          localStorage.setItem("theme", "light");
+      }
+  }
+</script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
